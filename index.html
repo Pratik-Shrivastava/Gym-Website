@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            /* margin: 0px;
+            padding: 0px; */
+            color: white;
+            background: url(img/back.jpg);
+            background-size: 100vw 120vh;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #box-2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #box-3 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #box-2 a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 42px;
+            font-size: 20px;
+            transition: all 0.2s;
+        }
+
+        
+        
+        #box-2 a:hover {
+            transform: scale(1.2);
+            text-decoration: underline;
+            
+        }
+        
+        #box-2 a:active {
+            color: grey;
+            text-decoration: underline;
+        }
+        
+        #box-3 img {
+            height: 30px;
+            width: 50px;
+            margin: 5px 3px;
+            margin-right: 13px;
+            cursor: pointer;
+        }
+        
+        #box-1 img {
+            height: 30px;
+            width: 70px;
+            overflow: auto;
+            margin-left: 5px;
+            margin-top: 5px;
+            /* filter: invert(100%); */
+        }
+        .btn {
+            color: black;
+            background-color: rgb(220, 219, 219);
+            border: none;
+            text-decoration: none;
+            margin: 5px 14px;
+            padding: 0px 6px;
+            font-size: 17px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        .btn:hover{
+            background-color: rgb(170, 170, 170);
+            transform: scale(1.2);
+        }
+        .btn:active{
+            background-color: rgb(123, 123, 123);
+        }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box-1">
+            <img src="/img/logo.jpg" alt="">
+        </div>
+        <div class="box" id="box-2">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Events</a>
+            <a href="#">Community</a>
+            <a href="#">Join</a>
+        </div>
+        <div class="box" id="box-3">
+            <button class="btn">Contact Us</button>
+            <button class="btn">Cart</button>
+            <img src="/img/Cart.jpg" alt="">
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
